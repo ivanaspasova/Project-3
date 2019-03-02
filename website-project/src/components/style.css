@@ -1,0 +1,11 @@
+.card {
+  margin-bottom: "20px";
+  margin-top: "20px";
+}
+
+.header {
+  color: aqua;
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 50px;
+}

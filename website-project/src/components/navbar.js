@@ -21,35 +21,12 @@ class Navbar extends React.Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="electronicsPage.html"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Electronics
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/">
-                  Phones
-                </a>
-                <a className="dropdown-item" href="/">
-                  Laptops
-                </a>
-                <div className="dropdown-divider" />
-                <a className="dropdown-item" href="/">
-                  PC
-                </a>
-              </div>
-            </li>
+            <li className="nav-item dropdown" />
+
             <li className="nav-item">
               <a
-                className="nav-link disabled"
-                href="cart.html"
+                className="nav-link"
+                href="/cart"
                 tabindex="-1"
                 aria-disabled="true"
               >

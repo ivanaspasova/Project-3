@@ -6,7 +6,7 @@ class Paragraph extends React.Component {
       <div>
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-12  text-center">
               <div className="headings">
                 <h1 className="display-4">Why go to the store?</h1>
                 <p className="lead">
